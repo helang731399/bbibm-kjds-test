@@ -1,25 +1,17 @@
 package com.bbibm.memo.controller;
-import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.bbibm.memo.entity.Memo;
 import com.bbibm.memo.reqvo.MemoVo;
 import com.bbibm.memo.service.MemoService;
-import com.bbibm.memo.util.DatetoLocalDateTimeUtil;
-import com.bbibm.memo.util.FileUpdate;
 import com.rjkj.cf.common.core.util.R;
 import com.rjkj.cf.common.log.annotation.SysLog;
-import io.minio.errors.*;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
-import org.xmlpull.v1.XmlPullParserException;
-
-import java.io.IOException;
-import java.security.InvalidKeyException;
-import java.security.NoSuchAlgorithmException;
-import java.util.List;
+import org.springframework.web.client.RestTemplate;
+import org.springframework.web.multipart.MultipartFile;
 
 
 /**
@@ -37,7 +29,7 @@ public class MemoController {
 
     private final MemoService memoService;
 
-    private FileUpdate fileUpdate;
+    private final RestTemplate restTemplate;
 
     /**
      * 分页查询
@@ -71,8 +63,7 @@ public class MemoController {
     @ApiOperation(value = "新增", notes = "新增")
     @SysLog("新增" )
     @PostMapping
-    public R save(@RequestBody Memo memo) throws IOException, XmlPullParserException, NoSuchAlgorithmException, RegionConflictException, InvalidKeyException, InvalidArgumentException, ErrorResponseException, NoResponseException, InvalidBucketNameException, InsufficientDataException, InternalException {
-        fileUpdate.get(memo.getAttachment());
+    public R save( Memo memo,MultipartFile file) {
         return R.ok(memoService.save(memo));
     }
 
