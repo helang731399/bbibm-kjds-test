@@ -46,7 +46,7 @@ public class NoticeController {
 //    @ApiOperation(value = "分页查询", notes = "分页查询")
 //    @GetMapping("/page" )
 //    public R getNoticePage(Page page, Notice notice) {
-//        return R.ok(noticeService.page(page, Wrappers.query(notice)));
+//        return R.ok(noticeService.page(page, Wrappers.reqvo(notice)));
 //    }
 
 

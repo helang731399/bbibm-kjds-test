@@ -2341,9 +2341,9 @@ public  class MarketplaceWebServiceClient implements MarketplaceWebService {
      *    1. The HTTP Request Method followed by an ASCII newline (%0A)
      *    2. The HTTP Host header in the form of lowercase host, followed by an ASCII newline.
      *    3. The URL encoded HTTP absolute path component of the URI
-     *       (up to but not including the query string parameters);
+     *       (up to but not including the reqvo string parameters);
      *       if this is empty use a forward '/'. This parameter is followed by an ASCII newline.
-     *    4. The concatenation of all query string components (names and values)
+     *    4. The concatenation of all reqvo string components (names and values)
      *       as UTF-8 characters which are URL encoded as per RFC 3986
      *       (hex characters MUST be uppercase), sorted using lexicographic byte ordering.
      *       Parameter names are separated from their values by the '=' character

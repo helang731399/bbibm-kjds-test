@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/kjds-product/kjds-product.iml" filepath="$PROJECT_DIR$/kjds-product/kjds-product.iml" />
       <module fileurl="file://$PROJECT_DIR$/kjds-test/kjds-test.iml" filepath="$PROJECT_DIR$/kjds-test/kjds-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/kjds-time/kjds-time.iml" filepath="$PROJECT_DIR$/kjds-time/kjds-time.iml" />
+      <module fileurl="file://$PROJECT_DIR$/work-center/work-center.iml" filepath="$PROJECT_DIR$/work-center/work-center.iml" />
     </modules>
   </component>
 </project>

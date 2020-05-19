@@ -150,7 +150,7 @@ public class GoodsProductServiceImpl extends ServiceImpl<GoodsProductMapper, Goo
         if (1 == 1) {
             return this.page(page, Wrappers.query(goodsProduct));
         } else {
-//           return this.page(page,Wrappers.query(goodsProduct).lambda().eq(user.get))
+//           return this.page(page,Wrappers.reqvo(goodsProduct).lambda().eq(user.get))
         }
         return null;
     }
@@ -523,7 +523,7 @@ public class GoodsProductServiceImpl extends ServiceImpl<GoodsProductMapper, Goo
         if (StringUtils.isEmpty(id)) {
             throw new RuntimeException("id不能为空");
         }
-//        List<GoodsProduct> goodsProducts = this.baseMapper.selectList(Wrappers.<GoodsProduct>query().lambda()
+//        List<GoodsProduct> goodsProducts = this.baseMapper.selectList(Wrappers.<GoodsProduct>reqvo().lambda()
 //                .eq(GoodsProduct::getUid, user.getId())
 //                .in(GoodsProduct::getId, Arrays.asList(id.split(",")))
 //                .in(GoodsProduct::getRackStatus, 0));

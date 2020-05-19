@@ -372,7 +372,7 @@ public class GoodsServiceImpl extends ServiceImpl<GoodsMapper, Goods> implements
 //            AtomicInteger goodsShlefNum = new AtomicInteger(0);
 //            item.getGoodsRspList().stream()
 //                    .forEach(goodsItem -> {
-//                        int count = goodsProductService.count(Wrappers.<GoodsProduct>query()
+//                        int count = goodsProductService.count(Wrappers.<GoodsProduct>reqvo()
 //                                .lambda().eq(GoodsProduct::getUid, uid)
 //                                .eq(GoodsProduct::getGid, goodsItem.getGid())
 //                                .eq(GoodsProduct::getRackStatus, 0));

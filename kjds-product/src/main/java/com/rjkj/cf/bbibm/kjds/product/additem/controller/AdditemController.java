@@ -93,7 +93,7 @@ public class AdditemController {
 //                    }
 //                    String area = iteam.getArea();
 //                    iteam.setImageList(listBig);
-//                    List<ProductTranslation> productTranslationList = productTranslationService.list(Wrappers.<ProductTranslation>query().lambda()
+//                    List<ProductTranslation> productTranslationList = productTranslationService.list(Wrappers.<ProductTranslation>reqvo().lambda()
 //                            .eq(ProductTranslation::getProductId, iteam.getId())
 //                            .eq(ProductTranslation::getArea, area));
 //

@@ -84,7 +84,7 @@ public class ProductController {
     public R getProductPage(Page page, Product product) {
         RjkjUser user = SecurityUtils.getUser();
         LambdaQueryWrapper<Product> query = Wrappers.<Product>query().lambda().eq(Product::getUserId, user.getId());
-//        LambdaQueryWrapper<Product> query = Wrappers.<Product>query().lambda();
+//        LambdaQueryWrapper<Product> reqvo = Wrappers.<Product>reqvo().lambda();
         if(StringUtils.isNotEmpty(product.getAuditStatus())){
             query.eq(Product::getAuditStatus,product.getAuditStatus());
         }
@@ -210,9 +210,9 @@ public class ProductController {
             int j=0;
 //            ArrayList<String> objects = new ArrayList<>();
 //            for (Product product : list) {
-//                List<ProductTranslation> list1 = productTranslationService.list(Wrappers.<ProductTranslation>query().lambda().eq(ProductTranslation::getProductSku, product.getSku()));
+//                List<ProductTranslation> list1 = productTranslationService.list(Wrappers.<ProductTranslation>reqvo().lambda().eq(ProductTranslation::getProductSku, product.getSku()));
 //                if(list1.size()<11){
-//                    productTranslationService.remove(Wrappers.<ProductTranslation>query().lambda().eq(ProductTranslation::getProductSku, product.getSku()));
+//                    productTranslationService.remove(Wrappers.<ProductTranslation>reqvo().lambda().eq(ProductTranslation::getProductSku, product.getSku()));
 //                    objects.add(product.getId());
 //                 }
 //                j=++j;
@@ -344,7 +344,7 @@ public class ProductController {
                     if(StringUtils.isNotBlank(description)){
                         records.get(i).setDescriptionTwo(HtmlRepliceUtils.parseAllHtmlInfo(records.get(i).getDescription()));
                     }
-//                    List<ProductVariant> list = productVariantService.list(Wrappers.<ProductVariant>query().lambda().eq(ProductVariant::getParentSku, records.get(i).getSku()));
+//                    List<ProductVariant> list = productVariantService.list(Wrappers.<ProductVariant>reqvo().lambda().eq(ProductVariant::getParentSku, records.get(i).getSku()));
 //                    if(list!=null&&list.size()>0){
 //                        for(int m=0;m<list.size();m++){
 //                            list.get(m).setImageList(SysFileUtils.getSysFile(list.get(m).getImage()));
@@ -386,7 +386,7 @@ public class ProductController {
 //            if(records!=null){
 //                for(int i=0;i<records.size();i++){
 //                    records.get(i).setImageList(SysFileUtils.getSysFile(records.get(i).getImage()));
-////                    List<ProductVariant> list = productVariantService.list(Wrappers.<ProductVariant>query().lambda().eq(ProductVariant::getParentSku, records.get(i).getSku()));
+////                    List<ProductVariant> list = productVariantService.list(Wrappers.<ProductVariant>reqvo().lambda().eq(ProductVariant::getParentSku, records.get(i).getSku()));
 ////                    if(list!=null&&list.size()>0){
 ////                        for(int m=0;m<list.size();m++){
 ////                            list.get(m).setImageList(SysFileUtils.getSysFile(list.get(m).getImage()));

@@ -16,6 +16,7 @@
         <module>kjds-test</module>
         <module>kjds-time</module>
         <module>kjds-order</module>
+        <module>work-center</module>
     </modules>
 
 
