@@ -4,9 +4,8 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce0feffe-744d-4f42-b17a-f263e541f4cc" name="Default Changelist" comment="备忘录模块">
+    <list default="true" id="ce0feffe-744d-4f42-b17a-f263e541f4cc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work-center/src/main/java/com/bbibm/memo/controller/MemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/work-center/src/main/java/com/bbibm/memo/controller/MemoController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/bbibm-order/target/" />
@@ -51,12 +50,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/work-center/src/main/java/com/bbibm/memo/controller/MemoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-              <folding>
-                <element signature="e#2030#2031#0" expanded="true" />
-                <element signature="e#2081#2082#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-154">
+              <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -64,7 +59,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/work-center/src/main/java/com/bbibm/memo/util/FileUpdate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
+            <state relative-caret-position="352">
               <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -104,6 +99,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -196,7 +194,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="width" value="683" />
     <option name="height" value="728" />
   </component>
@@ -230,13 +228,13 @@
     <property name="dynamic.classpath" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/kjds-test/src/main/java/com/bbibm/test/Controller" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="settings.gitee" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
@@ -400,7 +398,9 @@
       <workItem from="1589875633677" duration="5998000" />
       <workItem from="1589882177413" duration="562000" />
       <workItem from="1589896944958" duration="279000" />
-      <workItem from="1589897270507" duration="5058000" />
+      <workItem from="1589897270507" duration="5988000" />
+      <workItem from="1589903800840" duration="1152000" />
+      <workItem from="1589935844041" duration="2457000" />
     </task>
     <task id="LOCAL-00001" summary="格式修改">
       <created>1588736692099</created>
@@ -437,14 +437,21 @@
       <option name="project" value="LOCAL" />
       <updated>1589882459763</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="备忘录模块">
+      <created>1589902844320</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1589902844320</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163205000" />
+    <option name="totallyTimeSpent" value="167744000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25256222" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -464,7 +471,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50292826" side_tool="true" weight="0.3507109" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50292826" side_tool="true" weight="0.3522907" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="JRebel Console" order="12" sideWeight="0.50053304" side_tool="true" weight="0.32962137" />
@@ -472,7 +479,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32962137" />
       <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.49707174" weight="0.46445498" />
       <window_info anchor="bottom" id="JRebel Executor" order="16" />
-      <window_info anchor="bottom" id="Messages" order="17" visible="true" weight="0.328594" />
+      <window_info anchor="bottom" id="Messages" order="17" weight="0.328594" />
       <window_info anchor="bottom" id="Inspection Results" order="18" weight="0.32962137" />
       <window_info anchor="bottom" id="Problems" order="19" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -497,7 +504,8 @@
     <MESSAGE value="格式修改" />
     <MESSAGE value="同步订单" />
     <MESSAGE value="备忘录模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="备忘录模块" />
+    <MESSAGE value="5/20" />
+    <option name="LAST_COMMIT_MESSAGE" value="5/20" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -854,16 +862,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/work-center/src/main/java/com/bbibm/memo/util/FileUpdate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kjds-test/src/main/java/com/bbibm/test/controller/MemoController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-935">
@@ -887,11 +885,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/work-center/src/main/java/com/bbibm/memo/controller/MemoController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        <state relative-caret-position="-154">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work-center/src/main/java/com/bbibm/memo/util/FileUpdate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
           <folding>
-            <element signature="e#2030#2031#0" expanded="true" />
-            <element signature="e#2081#2082#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
