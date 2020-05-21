@@ -14,7 +14,6 @@
         <module>kjds-api</module>
         <module>kjds-product</module>
         <module>kjds-test</module>
-        <module>kjds-time</module>
         <module>kjds-order</module>
         <module>work-center</module>
     </modules>

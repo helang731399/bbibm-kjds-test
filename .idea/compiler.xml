@@ -8,7 +8,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="kjds-goods" />
-        <module name="kjds-time" />
         <module name="kjds-product" />
         <module name="bbibm-order" />
         <module name="kjds-api" />

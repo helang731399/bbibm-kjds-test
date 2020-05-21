@@ -15,5 +15,10 @@
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/kjds-time/pom.xml" />
+      </set>
+    </option>
   </component>
 </project>

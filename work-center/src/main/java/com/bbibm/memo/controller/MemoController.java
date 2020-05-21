@@ -24,7 +24,7 @@ import org.springframework.web.multipart.MultipartFile;
 @RestController
 @AllArgsConstructor
 @RequestMapping("/memo" )
-@Api(value = "memo", tags = "管理")
+@Api(value = "memo", tags = "备忘录管理")
 public class MemoController {
 
     private final MemoService memoService;
