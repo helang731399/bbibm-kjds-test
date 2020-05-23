@@ -1,7 +1,7 @@
-package com.bbibm.order.mapper;
+package com.bbibm.center.order.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.bbibm.order.entity.BbibmOrderItme;
+import com.bbibm.center.order.entity.BbibmOrderItme;
 import org.apache.ibatis.annotations.Mapper;
 
 /**

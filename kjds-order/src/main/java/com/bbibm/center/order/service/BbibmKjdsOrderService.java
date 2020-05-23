@@ -1,10 +1,7 @@
-package com.bbibm.order.service;
+package com.bbibm.center.order.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.bbibm.order.entity.BbibmKjdsOrder;
-import com.bbibm.order.entity.GoodsStatus;
-
-import java.util.List;
+import com.bbibm.center.order.entity.BbibmKjdsOrder;
 
 /**
  *@描述：

@@ -1,15 +1,12 @@
-package com.bbibm.order.service.impl;
+package com.bbibm.center.order.service.impl;
 
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.bbibm.order.entity.BbibmKjdsOrder;
-import com.bbibm.order.entity.GoodsStatus;
-import com.bbibm.order.mapper.BbibmKjdsOrderMapper;
-import com.bbibm.order.service.BbibmKjdsOrderService;
+import com.bbibm.center.order.entity.BbibmKjdsOrder;
+import com.bbibm.center.order.mapper.BbibmKjdsOrderMapper;
+import com.bbibm.center.order.service.BbibmKjdsOrderService;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
-
-import java.util.List;
 
 /**
  *@描述：

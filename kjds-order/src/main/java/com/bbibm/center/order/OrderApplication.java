@@ -1,4 +1,4 @@
-package com.bbibm.test;
+package com.bbibm.center.order;
 
 import com.rjkj.cf.common.security.annotation.EnableRjkjFeignClients;
 import com.rjkj.cf.common.security.annotation.EnableRjkjResourceServer;
@@ -12,9 +12,9 @@ import org.springframework.scheduling.annotation.EnableAsync;
 @EnableRjkjResourceServer
 @SpringCloudApplication
 @EnableAsync
-public class TestApplication {
+public class OrderApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(TestApplication.class,args);
+        SpringApplication.run(OrderApplication.class,args);
     }
 }

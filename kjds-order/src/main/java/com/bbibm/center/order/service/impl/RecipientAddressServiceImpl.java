@@ -1,10 +1,10 @@
-package com.bbibm.order.service.impl;
+package com.bbibm.center.order.service.impl;
 
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.bbibm.order.entity.RecipientAddress;
-import com.bbibm.order.mapper.RecipientAddressMapper;
-import com.bbibm.order.service.RecipientAddressService;
+import com.bbibm.center.order.entity.RecipientAddress;
+import com.bbibm.center.order.mapper.RecipientAddressMapper;
+import com.bbibm.center.order.service.RecipientAddressService;
 import org.springframework.stereotype.Service;
 
 /**

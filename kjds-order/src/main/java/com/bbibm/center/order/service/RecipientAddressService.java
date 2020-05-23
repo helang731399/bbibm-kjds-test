@@ -1,7 +1,7 @@
-package com.bbibm.order.service;
+package com.bbibm.center.order.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.bbibm.order.entity.RecipientAddress;
+import com.bbibm.center.order.entity.RecipientAddress;
 
 /**
  *@描述：

@@ -1,8 +1,8 @@
-package com.bbibm.order.controller;
+package com.bbibm.center.order.controller;
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.bbibm.order.entity.BbibmKjdsOrder;
-import com.bbibm.order.service.BbibmKjdsOrderService;
+import com.bbibm.center.order.entity.BbibmKjdsOrder;
+import com.bbibm.center.order.service.BbibmKjdsOrderService;
 import com.rjkj.cf.common.core.util.R;
 import com.rjkj.cf.common.log.annotation.SysLog;
 import io.swagger.annotations.Api;

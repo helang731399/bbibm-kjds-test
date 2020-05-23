@@ -1,4 +1,4 @@
-package com.bbibm.order.util;
+package com.bbibm.center.order.util;
 
 import java.text.SimpleDateFormat;
 import java.time.Instant;
