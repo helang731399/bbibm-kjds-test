@@ -14,7 +14,7 @@
         <module name="kjds-test" />
         <module name="kjds-transcation" />
         <module name="kjds-order" />
-        <module name="work-center" />
+        <module name="work-log" />
         <module name="kjds-pay" />
       </profile>
     </annotationProcessing>
@@ -32,6 +32,7 @@
       <module name="kjds-time" target="1.8" />
       <module name="kjds-transcation" target="1.8" />
       <module name="work-center" target="1.8" />
+      <module name="work-log" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

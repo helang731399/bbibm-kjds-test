@@ -21,9 +21,9 @@
 
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.bbibm.order.mapper.RecipientAddressMapper">
+<mapper namespace="com.bbibm.center.order.mapper.RecipientAddressMapper">
 
-  <resultMap id="recipientAddressMap" type="com.bbibm.order.entity.RecipientAddress">
+  <resultMap id="recipientAddressMap" type="com.bbibm.center.order.entity.RecipientAddress">
                   <id property="ordersn" column="ordersn"/>
                         <result property="phone" column="phone"/>
                         <result property="name" column="name"/>

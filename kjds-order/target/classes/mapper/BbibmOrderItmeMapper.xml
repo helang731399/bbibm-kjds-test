@@ -4,9 +4,9 @@
 
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.bbibm.order.mapper.BbibmOrderItmeMapper">
+<mapper namespace="com.bbibm.center.order.mapper.BbibmOrderItmeMapper">
 
-  <resultMap id="bbibmOrderItmeMap" type="com.bbibm.order.entity.BbibmOrderItme">
+  <resultMap id="bbibmOrderItmeMap" type="com.bbibm.center.order.entity.BbibmOrderItme">
                   <id property="ordersn" column="ordersn"/>
                         <result property="weight" column="weight"/>
                         <result property="itemName" column="item_name"/>
